@@ -1,0 +1,23 @@
+import java.io*
+import util.*
+interface one
+{
+void play();
+}
+public class two implements one
+{
+public void play()
+{
+system.out.println(3+5);
+}
+}
+public class three implement one 
+{
+system.out.println(5-3);
+}
+public.static.void main(string args[])
+{
+three o= new two();
+o.play();
+}
+}
