@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+public class one
+{
+int a=3;
+}
+public class two extends one
+{
+int b=4
+}
+public class three extends two
+{
+int c=5
+public static void main(string args[])
+{
+three o=new three();
+system.out.println(o.a*o.b*o.c);
