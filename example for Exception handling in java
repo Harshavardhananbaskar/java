@@ -1,0 +1,15 @@
+public class javaExceptionExample
+{
+public static void main(string args[])
+{
+try
+{
+int data=100/10;
+}
+catch(arithmatic exception e)
+{
+system.out.println(e);
+}
+system.out.println("rest of the code....");
+}
+}
