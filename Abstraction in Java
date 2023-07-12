@@ -1,5 +1,5 @@
 import java.io*
-import util.*
+import java.util.*
 interface one
 {
 void play();
